@@ -24,6 +24,15 @@
 		CB59592622D9BD3200CE6125 /* PageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB59592522D9BD3200CE6125 /* PageOneViewController.swift */; };
 		CB59592922D9BEA300CE6125 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB59592822D9BEA300CE6125 /* WebKit.framework */; };
 		CB59592B22D9C74B00CE6125 /* resume.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CB59592A22D9C74B00CE6125 /* resume.pdf */; };
+		CB78923922DA0E3C006CC668 /* PageThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB78923822DA0E3C006CC668 /* PageThreeViewController.swift */; };
+		CB78923B22DA1083006CC668 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB78923A22DA1083006CC668 /* CustomTableViewCell.swift */; };
+		CB78923D22DA1241006CC668 /* cmdev_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB78923C22DA1241006CC668 /* cmdev_icon.png */; };
+		CB78923F22DA1435006CC668 /* loadingimg.png in Resources */ = {isa = PBXBuildFile; fileRef = CB78923E22DA1435006CC668 /* loadingimg.png */; };
+		CB78924122DA1D11006CC668 /* PageFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB78924022DA1D11006CC668 /* PageFourViewController.swift */; };
+		CB78924322DA1E02006CC668 /* FlightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB78924222DA1E02006CC668 /* FlightTableViewCell.swift */; };
+		CB78924522DA1EE3006CC668 /* landing_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB78924422DA1EE2006CC668 /* landing_icon.png */; };
+		CB78924722DA1EF1006CC668 /* takeoff_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB78924622DA1EF1006CC668 /* takeoff_icon.png */; };
+		CB78924922DA2617006CC668 /* PageSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB78924822DA2617006CC668 /* PageSixViewController.swift */; };
 		D8D50B9FB848AD4EFBFF4D60 /* Pods_ViewController101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DFCBBC8F51BFA7E9DA963B /* Pods_ViewController101.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +59,15 @@
 		CB59592522D9BD3200CE6125 /* PageOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneViewController.swift; sourceTree = "<group>"; };
 		CB59592822D9BEA300CE6125 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		CB59592A22D9C74B00CE6125 /* resume.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = resume.pdf; sourceTree = "<group>"; };
+		CB78923822DA0E3C006CC668 /* PageThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThreeViewController.swift; sourceTree = "<group>"; };
+		CB78923A22DA1083006CC668 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CB78923C22DA1241006CC668 /* cmdev_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cmdev_icon.png; sourceTree = "<group>"; };
+		CB78923E22DA1435006CC668 /* loadingimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingimg.png; sourceTree = "<group>"; };
+		CB78924022DA1D11006CC668 /* PageFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageFourViewController.swift; sourceTree = "<group>"; };
+		CB78924222DA1E02006CC668 /* FlightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTableViewCell.swift; sourceTree = "<group>"; };
+		CB78924422DA1EE2006CC668 /* landing_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landing_icon.png; sourceTree = "<group>"; };
+		CB78924622DA1EF1006CC668 /* takeoff_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takeoff_icon.png; sourceTree = "<group>"; };
+		CB78924822DA2617006CC668 /* PageSixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSixViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +122,11 @@
 				CB59591022D9986900CE6125 /* Info.plist */,
 				CB59592522D9BD3200CE6125 /* PageOneViewController.swift */,
 				CB415ECB22D9E51D003249F6 /* PageTwoViewController.swift */,
+				CB78923822DA0E3C006CC668 /* PageThreeViewController.swift */,
+				CB78923A22DA1083006CC668 /* CustomTableViewCell.swift */,
+				CB78924022DA1D11006CC668 /* PageFourViewController.swift */,
+				CB78924222DA1E02006CC668 /* FlightTableViewCell.swift */,
+				CB78924822DA2617006CC668 /* PageSixViewController.swift */,
 			);
 			path = ViewController101;
 			sourceTree = "<group>";
@@ -111,6 +134,10 @@
 		CB59591622D99CD800CE6125 /* ImageSource */ = {
 			isa = PBXGroup;
 			children = (
+				CB78924622DA1EF1006CC668 /* takeoff_icon.png */,
+				CB78924422DA1EE2006CC668 /* landing_icon.png */,
+				CB78923E22DA1435006CC668 /* loadingimg.png */,
+				CB78923C22DA1241006CC668 /* cmdev_icon.png */,
 				CB415EC922D9E493003249F6 /* qr_code_generator.png */,
 				CB59592A22D9C74B00CE6125 /* resume.pdf */,
 				CB59591A22D99E8800CE6125 /* 1.png */,
@@ -196,11 +223,15 @@
 				CB59591822D99CD800CE6125 /* iphone_cover.jpg in Resources */,
 				CB59590F22D9986900CE6125 /* LaunchScreen.storyboard in Resources */,
 				CB59592122D99E8800CE6125 /* 2.png in Resources */,
+				CB78923D22DA1241006CC668 /* cmdev_icon.png in Resources */,
+				CB78923F22DA1435006CC668 /* loadingimg.png in Resources */,
 				CB59592B22D9C74B00CE6125 /* resume.pdf in Resources */,
 				CB59592322D99E8800CE6125 /* 6.png in Resources */,
 				CB59590C22D9986900CE6125 /* Assets.xcassets in Resources */,
+				CB78924522DA1EE3006CC668 /* landing_icon.png in Resources */,
 				CB59592422D99E8800CE6125 /* 3.png in Resources */,
 				CB59592022D99E8800CE6125 /* 1.png in Resources */,
+				CB78924722DA1EF1006CC668 /* takeoff_icon.png in Resources */,
 				CB59592222D99E8800CE6125 /* 5.png in Resources */,
 				CB59591F22D99E8800CE6125 /* 4.png in Resources */,
 				CB59590A22D9986800CE6125 /* Main.storyboard in Resources */,
@@ -257,9 +288,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB78923B22DA1083006CC668 /* CustomTableViewCell.swift in Sources */,
+				CB78923922DA0E3C006CC668 /* PageThreeViewController.swift in Sources */,
 				CB415ECC22D9E51D003249F6 /* PageTwoViewController.swift in Sources */,
+				CB78924922DA2617006CC668 /* PageSixViewController.swift in Sources */,
 				CB59592622D9BD3200CE6125 /* PageOneViewController.swift in Sources */,
 				CB59590722D9986800CE6125 /* ViewController.swift in Sources */,
+				CB78924322DA1E02006CC668 /* FlightTableViewCell.swift in Sources */,
+				CB78924122DA1D11006CC668 /* PageFourViewController.swift in Sources */,
 				CB59590522D9986800CE6125 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
